@@ -1,0 +1,143 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    padding-left: 20px;
+}
+
+header {
+    background-color: silver; /* Dark Orange */
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    max-width: 30%;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #CC5500;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 0.5vw;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+/* Oval-shaped buttons with red gradient */
+nav a.login, nav a.signup {
+    background: radial-gradient(ellipse at center, #FF4500 0%, #CC5500 100%);
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: white;
+}
+
+/* Hover effect for buttons */
+nav a.login:hover {
+    text-decoration: underline;
+    background: red;
+    text-shadow: #CC5500;
+}
+
+.dance-styles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dance-style {
+  flex: 0 0 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.dance-style img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.style-name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+}.dance-styles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.dance-style {
+  flex: 0 0 calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.dance-style img {
+  width: 100%;
+  height: 250px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the fixed height */
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.dance-style:hover img {
+    transform: scale(0.9); /* Increase the size on hover */
+  }
+
+.style-name {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: boliiiiiid;
+}
+
+@media screen and (max-width: 991px)
+.section_header_v2 {
+    white-space: break-spaces;
+    font-size: 6vw;
+    line-height: 6vw;
+}
+
+.section_header_v2 {
+  color: #CC5500;
+  text-transform: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Sequel 100 Wide", sans-serif;
+  font-size: 4vw;
+  font-weight: 800;
+  line-height: 3vw;
+}
+
+.subhead_v2-dark-deviices {
+  width: 85%;
+}
+
+.subhead_v2.dark {
+  margin-top: 6vw;
+  line-height: 4.5v;
+  color: #111;
+  margin-bottom: 0;
+}
+
+,subhead_v2 {
+  letter-spacing: .025vw;
+  font-family: Poppins, sans-serif;
+}
